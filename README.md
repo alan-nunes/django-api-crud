@@ -76,13 +76,17 @@ O projeto segue a estrutura padrão de um projeto Django, com as seguintes modif
 
     - **Descrição:** Retorna uma lista com todos os usuários cadastrados na base de dados.
 
+- ### GET Usuário por Nome
+    - **Rota:** /user/<str:nick>
+    - **Função:** get_by_nick
+    - **Descrição:** Busca e retorna informações de um usuário específico com base no nickname fornecido.
 
 - ### Gerenciamento de Dados de Usuários
     - **Rota:** /data/
 
     - **Função:** user_manager
 
-    - **Descrição:** BPermite criar novos usuários, atualizar dados de usuários existentes ou deletar usuários conforme necessário.
+    - **Descrição:** Permite criar novos usuários, atualizar dados de usuários existentes ou deletar usuários conforme necessário.
 
 ## Como Executar o Projeto
 Para executar este projeto localmente, siga as etapas descritas na seção Configuração do Ambiente. Após iniciar o servidor de desenvolvimento, você pode acessar a API em http://localhost:8000/api
