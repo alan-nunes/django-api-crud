@@ -77,7 +77,7 @@ O projeto segue a estrutura padrão de um projeto Django, com as seguintes modif
     - **Descrição:** Retorna uma lista com todos os usuários cadastrados na base de dados.
 
 - ### GET Usuário por Nome
-    - **Rota:** /user/<str:nick>
+    - **Rota:** /user/<<str:nick>>'
     - **Função:** get_by_nick
     - **Descrição:** Busca e retorna informações de um usuário específico com base no nickname fornecido.
 
